@@ -34,5 +34,5 @@ static const Block blocks[] = {
 // autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = " | ";
-static unsigned int delimLen = 5;
+static char delim[] = "|";
+static unsigned int delimLen = 3;
