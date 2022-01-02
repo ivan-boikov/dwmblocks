@@ -23,6 +23,7 @@ static const Block blocks[] = {
 	{"",	"sb-nettraf",	1,	16},
     //{"⌨",   "sb-kbselect", 0, 30},
 	{"",	"sb-cpu",		5,	18},
+	{"",	"sb-cpubars",		5,	18},
 	{"",	"sb-memory",	5,	14},
 	{"",	"sb-clock",	1,	1},
 	//{"",	"sb-help-icon",	0,	15},
