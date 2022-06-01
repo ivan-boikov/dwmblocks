@@ -2,31 +2,25 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 //	{"", "cat /tmp/recordingicon 2>/dev/null",	0,	9},
-	//{"",	"sb-tasks",	10,	26},
-	{"",	"sb-music",	0,	11},
-	//{"",	"sb-pacpackages",	0,	8},
-	//{"",	"sb-news",		0,	6},
-	/* {"",	"sb-price lbc \"LBRY Token\" 📚",			9000,	22}, */
-	/* {"",	"sb-price bat \"Basic Attention Token\" 🦁",	9000,	20}, */
-	/* {"",	"sb-price link \"Chainlink\" 🔗",			300,	25}, */
-	/* {"",	"sb-price xmr \"Monero\" 🔒",			9000,	24}, */
-	/* {"",	"sb-price eth Ethereum 🍸",	9000,	23}, */
-	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
-	// {"",	"sb-torrent",	20,	7},
-	/* {"",	"sb-moonphase",	18000,	17}, */
-	// {"",	"sb-forecast",	18000,	5},
-	{"",	"sb-volume",	0,	10},
-//	{"",	"sb-mailbox",	180,	12},
-	{"",	"sb-battery",	5,	3},
-    //{"",	"sb-internet",	5,	4},
-	{"",	"sb-iplocate",	2,	4},
-	{"",	"sb-nettraf",	1,	16},
-    //{"⌨",   "sb-kbselect", 0, 30},
-	{"",	"sb-cpu",		5,	18},
-	{"",	"sb-cpubars",		5,	18},
-	{"",	"sb-memory",	5,	14},
-	{"",	"sb-clock",	1,	1},
-	//{"",	"sb-help-icon",	0,	15},
+	//{"",	"$HOME/.local/bin/statusbar/sb-tasks",	10,	26},
+	{"",	"$HOME/.local/bin/statusbar/sb-music",	0,	11},
+	//{"",	"$HOME/.local/bin/statusbar/sb-pacpackages",	0,	8},
+	//{"",	"$HOME/.local/bin/statusbar/sb-news",		0,	6},
+	// {"",	"$HOME/.local/bin/statusbar/sb-torrent",	20,	7},
+	/* {"",	"$HOME/.local/bin/statusbar/sb-moonphase",	18000,	17}, */
+	// {"",	"$HOME/.local/bin/statusbar/sb-forecast",	18000,	5},
+	{"",	"$HOME/.local/bin/statusbar/sb-volume",	0,	10},
+	{"",	"$HOME/.local/bin/statusbar/sb-mailbox",	60,	12},
+	{"",	"$HOME/.local/bin/statusbar/sb-battery",	5,	3},
+    {"",	"$HOME/.local/bin/statusbar/sb-internet",	5,	4},
+	//{"",	"$HOME/.local/bin/statusbar/sb-iplocate",	2,	4},
+	{"",	"$HOME/.local/bin/statusbar/sb-nettraf",	1,	16},
+    //{"",   "$HOME/.local/bin/statusbar/sb-kbselect", 0, 30},
+	{"",	"$HOME/.local/bin/statusbar/sb-cpu",		5,	18},
+	{"",	"$HOME/.local/bin/statusbar/sb-cpubars",		5,	18},
+	{"",	"$HOME/.local/bin/statusbar/sb-memory",	5,	14},
+	{"",	"$HOME/.local/bin/statusbar/sb-clock",	1,	1},
+	//{"",	"$HOME/.local/bin/statusbar/sb-help-icon",	0,	15},
 };
 
 // Have dwmblocks automatically recompile and run when you edit this file in
