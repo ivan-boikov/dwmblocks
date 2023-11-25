@@ -4,13 +4,14 @@ static const Block blocks[] = {
 	{"",	"$HOME/.local/bin/sb-music",	0,	11},
 	{"",	"$HOME/.local/bin/sb-volume",	0,	10},
 	{"",	"$HOME/.local/bin/sb-mailbox",	60,	12},
-	{"",	"$HOME/.local/bin/sb-battery",	5,	3},
+	{"",	"$HOME/.local/bin/sb-battery",	10,	3},
     {"",	"$HOME/.local/bin/sb-internet",	5,	4},
 	//{"",	"$HOME/.local/bin/sb-iplocate",	2,	4},
 	{"",	"$HOME/.local/bin/sb-nettraf",	1,	16},
-	{"",	"$HOME/.local/bin/sb-cpu",		5,	18},
-	{"",	"$HOME/.local/bin/sb-cpubars",		5,	18},
-	{"",	"$HOME/.local/bin/sb-memory",	5,	14},
+	{"",	"$HOME/.local/bin/sb-cputemp",		5,	18},
+	{"",	"$HOME/.local/bin/sb-cpubars",	2,	18},
+	{"",	"$HOME/.local/bin/sb-cpufreq",	2,	18},
+	{"",	"$HOME/.local/bin/sb-memory",	2,	14},
 	{"",	"$HOME/.local/bin/sb-clock",	1,	1},
 };
 
@@ -21,4 +22,4 @@ static const Block blocks[] = {
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
 static char delim[] = "|";
-static unsigned int delimLen = 3;
+static unsigned int delimLen = 2;
