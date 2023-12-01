@@ -1,18 +1,17 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
-	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"",	"$HOME/.local/bin/sb-music",	0,	11},
-	{"",	"$HOME/.local/bin/sb-volume",	0,	10},
-	{"",	"$HOME/.local/bin/sb-mailbox",	60,	12},
-	{"",	"$HOME/.local/bin/sb-battery",	10,	3},
-    {"",	"$HOME/.local/bin/sb-internet",	5,	4},
-	//{"",	"$HOME/.local/bin/sb-iplocate",	2,	4},
-	{"",	"$HOME/.local/bin/sb-nettraf",	1,	16},
-	{"",	"$HOME/.local/bin/sb-cputemp",		5,	18},
-	{"",	"$HOME/.local/bin/sb-cpubars",	2,	18},
-	{"",	"$HOME/.local/bin/sb-cpufreq",	2,	18},
-	{"",	"$HOME/.local/bin/sb-memory",	2,	14},
-	{"",	"$HOME/.local/bin/sb-clock",	1,	1},
+    /*Icon*/	/*Command*/			/*Interval*/	/*Update Signal*/
+    {"",	"$HOME/.local/bin/sb-music",	0,		11},
+    {"",	"$HOME/.local/bin/sb-volume",	0,		10},
+    {"",	"$HOME/.local/bin/sb-mailbox",	60,		12},
+    {"",	"$HOME/.local/bin/sb-battery",	10,		3},
+    {"",	"$HOME/.local/bin/sb-internet",	5,		4},
+    {"",	"$HOME/.local/bin/sb-nettraf",	1,		16},
+    {"",	"$HOME/.local/bin/sb-cputemp",	5,		18},
+    {"",	"$HOME/.local/bin/sb-cpubars",	1,		18},
+    {"",	"$HOME/.local/bin/sb-cpufreq",	1,		18},
+    {"",	"$HOME/.local/bin/sb-memory",	2,		14},
+    {"",	"$HOME/.local/bin/sb-clock",	1,		1},
 };
 
 // Have dwmblocks automatically recompile and run when you edit this file in
